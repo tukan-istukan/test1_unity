@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float speed = 5f;
+
     void Start()
     {
         
@@ -20,5 +21,6 @@ public class Player : MonoBehaviour
         {
             transform.Translate(-speed * Time.deltaTime, 0, 0);
         }
+
     }
 }
