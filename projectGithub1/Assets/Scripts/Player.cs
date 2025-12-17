@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        //ggg
+        //new text2
     }
 
     void Update()
